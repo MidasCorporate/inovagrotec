@@ -24,6 +24,7 @@ const About = () => (
       <TypingText title="| About Inovagrotec" textStyles="text-center" />
 
       <motion.p
+      //@ts-ignore
         variants={fadeIn({
           direction: 'up',
           type: 'tween',
@@ -67,6 +68,7 @@ const About = () => (
         </span>{' '}
       </motion.p>
       <motion.img
+      //@ts-ignore
         variants={fadeIn({
           direction: 'up',
           type: 'tween',

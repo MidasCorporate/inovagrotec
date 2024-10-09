@@ -100,7 +100,7 @@ export const textVariant2 = {
   },
 };
 
-export const fadeIn = ({direction, type, delay, duration}: PropsSlideIn) => ({
+export const fadeIn = (p0: string, p1: string, p2: number, p3: number, { direction, type, delay, duration }: PropsSlideIn) => ({
   hidden: {
     x: direction === 'left' ? 100 : direction === 'right' ? -100 : 0,
     y: direction === 'up' ? 100 : direction === 'down' ? -100 : 0,
@@ -145,7 +145,7 @@ interface PropsZoomIn {
   duration: number;
 }
 
-export const zoomIn = ({delay, duration}: PropsZoomIn) => ({
+export const zoomIn = (p0: number, p1: number, { delay, duration }: PropsZoomIn) => ({
   hidden: {
     scale: 0,
     opacity: 0,

@@ -19,6 +19,7 @@ const GetStarted = () => (
       className={`${styles.innerWidth} mx-auto flex lg:flex-row flex-col gap-8`}
     >
       <motion.div
+      //@ts-ignore
         variants={planetVariants('left')}
         className={`flex-1 ${styles.flexCenter}`}
       >
@@ -29,6 +30,7 @@ const GetStarted = () => (
         />
       </motion.div>
       <motion.div
+      //@ts-ignore
         variants={fadeIn('left', 'tween', 0.2, 1)}
         className="flex-[0.75] flex justify-center flex-col"
       >
