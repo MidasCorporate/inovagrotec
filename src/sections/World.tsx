@@ -27,7 +27,6 @@ const World = () => (
         title={'Track frends around you and invite them to play togerther in the same world'}
       />
       <motion.div
-      //@ts-ignore
         variants={fadeIn('up', 'tween', 0.3, 1)}
         className="relative mt-[68px] flex w-full h-[550px]"
       >

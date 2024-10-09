@@ -24,13 +24,12 @@ const About = () => (
       <TypingText title="| About Inovagrotec" textStyles="text-center" />
 
       <motion.p
-      //@ts-ignore
-        variants={fadeIn({
-          direction: 'up',
-          type: 'tween',
-          delay: 0.2,
-          duration: 1,
-        })}
+        variants={fadeIn(
+         'up',
+         'tween',
+          0.2,
+          1,
+        )}
         className="mt-[8px] font-normal sm:text-[32px] text=[20px] text-center text-secondary-white"
       >
         Na <span className="font-extrabold text-white">Inovagrotec</span>, usamos{' '} 
@@ -68,13 +67,12 @@ const About = () => (
         </span>{' '}
       </motion.p>
       <motion.img
-      //@ts-ignore
-        variants={fadeIn({
-          direction: 'up',
-          type: 'tween',
-          delay: 0.3,
-          duration: 1,
-        })}
+        variants={fadeIn(
+          'up',
+          'tween',
+          0.3,
+           1,
+        )}
         src="/arrow-down.svg"
         alt="arrow down"
         className="w-[18px] h-[28px] object-contain mt-[28px]"
