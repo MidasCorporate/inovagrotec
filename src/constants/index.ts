@@ -6,7 +6,7 @@ export const exploreWorlds = [
   },
   {
     id: 'world-2',
-    imgUrl: '/banner.JPG',
+    imgUrl: '/banner.jpeg',
     title: 'PIG Vision',
   },
   {
