@@ -18,16 +18,16 @@ const Footer = () => (
       <div className="flex items-center justify-between flex-wrap gap-5">
         <h4
           className="font-bold md:text-[64px] text-[44px] text-white"
-        >Enter the Metaverse
+        >Inovação que transforma o campo com inteligência artificial.
         </h4>
         <button type="button" className="flex items-center h-fit py-4 px-6 bg-[#25618b] rounded-[32px] gap-[12px]">
           <img
-            src="/headset.svg"
+            src="/pig.png"
             alt="headset"
-            className="w-[24px] h-[24px] object-contain"
+            className="w-[32px] h-[32px] object-contain"
           />
           <span className="font-normal text-[16px] text-white">
-            Enter Metaverse
+            Acessar plataforma
           </span>
         </button>
       </div>
@@ -36,10 +36,10 @@ const Footer = () => (
         <div className="mb-[50px] h-[2px] bg-white opacity-10 " />
 
         <div className="flex items-center justify-between flex-wrap gap-4">
-          <h4 className="font-extrabold text-[24px] text-white">Metaversus</h4>
+          <h4 className="font-extrabold text-[24px] text-white">Inovagrotec</h4>
 
           <p className="font-normal text-[14px] text-white opacity-50">
-            Copyright @ 2021 - 2023 Metaversus. All rights reserved.
+            Copyright @ 2021 - 2024 Inovagrotec. Todos os direitos reservados.
           </p>
           <div className="flex gap-4">
             {

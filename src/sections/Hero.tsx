@@ -32,15 +32,15 @@ const Hero = () => (
           <div className={styles.heroDText} />
           <h1 className={styles.heroHeading}>Ness</h1> */}
           <img
-          src="/nome.svg"
+          src="/inova.svg"
           alt="cover"
-          className="w-full sm:h-[180px] h-[150px] z-10 relative"
+          className="w-5/6 sm:h-[180px] h-[150px] z-10 relative"
         />
-          <img
+          {/* <img
           src="/subNome.svg"
           alt="cover"
           className="w-full sm:h-[120px] h-[120px] z-10 relative"
-        />
+        /> */}
         </motion.div>
       </div>
       <motion.div
@@ -49,7 +49,7 @@ const Hero = () => (
       >
         <div className="absolute w-full h-[300px] hero-gradient rounded-tl-[140px] z-[0] -top-[30px]" />
         <img
-          src="/cover.png"
+          src="/banner.jpg"
           alt="cover"
           className="w-full sm:h-[500px] h-[350px] object-cover rounded-tl-[140px] z-10 relative"
         />

@@ -9,7 +9,7 @@ import { fadeIn, staggerContainer, zoomIn } from '../utils/motion';
 const Feedback = () => (
   <section className={`${styles.paddings} relative z-10`}>
     <motion.div
-     //@ts-ignore
+      //@ts-ignore
       variants={staggerContainer}
       initial="hidden"
       whileInView="show"
@@ -23,13 +23,16 @@ const Feedback = () => (
         <div className="feedback-gradient" />
         <div>
           <h4 className="font-bold sm:text-[32px] text-[26px] sm:leading-[40px] leading-[36px] text-white">
-            Samantha
+            Familia Rodrigues
           </h4>
-          <p className="mt-[8px] font-normal sm:text-[18px] text-[12px] sm:leading-[22px] leading-[16px] text-white">Founder | Metaversus</p>
+          <p className="mt-[8px] font-normal sm:text-[18px] text-[12px] sm:leading-[22px] leading-[16px] text-white">
+            Produtor | Produtora
+          </p>
         </div>
         <p className="mt-[24px] font-normal sm:text-[24px] text-[18px] sm:leading-[45px] leading-[39px] text-white">
-          "With the development of today's technology, metaverse is very useful for today's
-          work, or  can be called web 3.0. by using metaverse you can use as anything"
+          "O sistema da Inovagrotec automatizou a contagem de leitões,
+          economizando tempo e melhorando a precisão. A produção ficou muito
+          mais eficiente!"
         </p>
       </motion.div>
 
@@ -38,7 +41,7 @@ const Feedback = () => (
         className="relative flex-1 flex justify-center items-center"
       >
         <img
-          src="/planet-09.png"
+          src="/productor.jpeg"
           alt="planet-09"
           className="w-full lg:h-[610px] h-auto min-h-[210px] object-cover rounded-[40px]"
         />
@@ -50,7 +53,8 @@ const Feedback = () => (
             src="/stamp.png"
             alt="stamp"
             className="w-[155px] h-[155px] object-contain"
-          />s
+          />
+          s
         </motion.div>
       </motion.div>
     </motion.div>

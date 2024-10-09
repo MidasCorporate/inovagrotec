@@ -1,49 +1,49 @@
 export const exploreWorlds = [
   {
     id: 'world-1',
-    imgUrl: '/planet-01.png',
-    title: 'The Hogwarts',
+    imgUrl: '/banner1.jpeg',
+    title: 'PIGTEC contador',
   },
   {
     id: 'world-2',
-    imgUrl: '/planet-02.png',
-    title: 'The Upside Down',
+    imgUrl: '/banner.JPG',
+    title: 'PIG Vision',
   },
   {
     id: 'world-3',
-    imgUrl: '/planet-03.png',
-    title: 'Kadirojo Permai',
+    imgUrl: '/banner2.jpeg',
+    title: 'PIG Monitora',
   },
   {
     id: 'world-4',
-    imgUrl: '/planet-04.png',
-    title: 'Paradise Island',
+    imgUrl: '/banner3.jpeg',
+    title: 'PIG Relatórios',
   },
   {
     id: 'world-5',
-    imgUrl: '/planet-05.png',
-    title: 'Hawkins Labs',
+    imgUrl: '/banner4.jpeg',
+    title: 'PIG Helpdesk',
   },
 ];
 
 export const startingFeatures = [
-  'Find a world that suits you and you want to enter',
-  'Enter the world by reading basmalah to be safe',
-  'No need to beat around the bush, just stay on the gas and have fun',
+  'Instalamos o equipamento de contagem em sua unidade',
+  'O equipamento transmite os dados de contagem para seu aplicativo',
+  'As informações são retransmitidas para o portal, e tudo em tempo real!',
 ];
 
 export const newFeatures = [
   {
     imgUrl: '/vrpano.svg',
-    title: 'A new world',
+    title: 'Imagens multidiversificadas',
     subtitle:
-        'we have the latest update with new world for you to try never mind',
+        'As imagens obtidas das contagens são "retorcidas" e utilizadas para aprimoramento da rede neural',
   },
   {
     imgUrl: '/headset.svg',
-    title: 'More realistic',
+    title: 'Rede Neural Otimizada',
     subtitle:
-        'In the latest update, your eyes are narrow, making the world more realistic than ever',
+        'Com uma rede neural otimizada pode obter informações fantasticas para otimizar diversas áreas da suinocultura',
   },
 ];
 

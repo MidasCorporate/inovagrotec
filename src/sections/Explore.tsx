@@ -21,10 +21,10 @@ const Explore = () => {
         className={`${styles.innerWidth} mx-auto flex flex-col`}
       >
         <TypingText
-          title="| The World"
+          title="| The Work"
           textStyles="text-center"
         />
-        <TitleText title={'<>Choose the world you want <br className="md:block hidden" /> to explore</>'} textStyles="text-center" />
+        <TitleText title={'Conheça mais sobre nosso trabalho'} textStyles="text-center" />
 
         <div
           className="mt=[50px] flex lg:flex-row flex-col min-h-[70vh] gap-5"
